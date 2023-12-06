@@ -1,7 +1,7 @@
 # Это репозиторий с учебными скриптами для модуля «Классификация»
 
 Перейдите по ссылкам, чтобы найти код к урокам модуля:
-- [Как работать с разными типами данных](https://github.com/Eduson-DataScience/Data-analysis/blob/main/%D0%A3%D1%80%D0%BE%D0%BA_%D0%A2%D0%B8%D0%BF%D1%8B_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85.ipynb)
+- [Как устроен алгоритм k-ближайших соседей. Практика](https://github.com/Eduson-DataScience/DataScience/blob/main/Classification/knn_practice.ipynb)
 
 Как скопировать учебные материалы:
 1. Нажмите на кноку <code>Code</code>. Она находится в правом верхнем углу.
