@@ -1,7 +1,8 @@
 # Это репозиторий с учебными скриптами для модуля «Классификация»
 
 Перейдите по ссылкам, чтобы найти код к урокам модуля:
-- [Как устроен алгоритм k-ближайших соседей. Практика](https://github.com/Eduson-DataScience/DataScience/blob/main/Classification/knn_practice.ipynb)
+- [Как устроен алгоритм k-ближайших соседей. Практика.](https://github.com/Eduson-DataScience/DataScience/blob/main/Classification/knn_practice.ipynb)
+-  [Как устроен алгоритм k-ближайших соседей. Код с комментариями.](https://github.com/Eduson-DataScience/DataScience/blob/main/Classification/knn_practice.ipynb)
 
 Как скопировать учебные материалы:
 1. Нажмите на кноку <code>Code</code>. Она находится в правом верхнем углу.
