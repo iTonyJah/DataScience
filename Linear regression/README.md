@@ -1,6 +1,6 @@
 Перейдите по ссылкам, чтобы найти код к урокам модуля:
 - [Как реализовать линейную регрессию на Python](https://github.com/Eduson-DataScience/DataScience/blob/main/Linear%20regression/lr_practice_final.ipynb)
-- [Решите задачу линейной регрессии. Задание.](https://github.com/Eduson-DataScience/DataScience/blob/main/Linear%20regression/lr_hw_task.ipynb)
+- [Решите задачу линейной регрессии. Задание](https://github.com/Eduson-DataScience/DataScience/blob/main/Linear%20regression/lr_hw_task.ipynb)
 - [Решите задачу линейной регрессии. Решение](https://github.com/Eduson-DataScience/DataScience/blob/main/Linear%20regression/lr_hw_final.ipynb)
 
 
