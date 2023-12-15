@@ -1,7 +1,6 @@
 Перейдите по ссылкам, чтобы найти код к урокам модуля:
-- [Как реализовать линейную регрессию на Python](https://github.com/Eduson-DataScience/DataScience/blob/main/Linear%20regression/lr_practice_final.ipynb)
-- [Решите задачу линейной регрессии. Задание](https://github.com/Eduson-DataScience/DataScience/blob/main/Linear%20regression/lr_hw_task.ipynb)
-- [Решите задачу линейной регрессии. Решение](https://github.com/Eduson-DataScience/DataScience/blob/main/Linear%20regression/lr_hw_final.ipynb)
+- [Практический кейс: с помощью случайного леса предскажите вероятность дождя](https://github.com/Eduson-DataScience/DataScience/blob/main/Random%20Forest/Decision%20tree.%20Practice.ipynb)
+- [Разбор домашнего задания: с помощью случайного леса предскажите стоимость недвижимости](https://github.com/Eduson-DataScience/DataScience/blob/main/Random%20Forest/Random%20Forest.%20Homework.ipynb)
 
 
 Как скопировать учебные материалы:
