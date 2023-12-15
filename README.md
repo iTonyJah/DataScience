@@ -6,6 +6,8 @@
 - [Практика по EDA](https://github.com/Eduson-DataScience/DataScience/tree/main/EDA-Practice)
 - [Линейная регрессия. Как найти зависимость между показателями]()
 - [Классификация. Как разделить данные на группы](https://github.com/Eduson-DataScience/DataScience/tree/main/Classification)
+- [Классификация. Деревья решений](https://github.com/Eduson-DataScience/DataScience/tree/main/Decision%20tree)
+- [Классификация. Случайный лес](https://github.com/Eduson-DataScience/DataScience/tree/main/Random%20Forest)
 
 
 Как скопировать учебные материалы:
