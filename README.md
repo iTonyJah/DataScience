@@ -9,6 +9,7 @@
 - [Классификация. Как разделить данные на группы](https://github.com/Eduson-DataScience/DataScience/tree/main/Classification)
 - [Классификация. Деревья решений](https://github.com/Eduson-DataScience/DataScience/tree/main/Decision%20tree)
 - [Классификация. Случайный лес](https://github.com/Eduson-DataScience/DataScience/tree/main/Random%20Forest)
+- [Прогнозирование. Временные ряды](https://github.com/Eduson-DataScience/DataScience/tree/main/TimeSeries)
 
 
 Как скопировать учебные материалы:
