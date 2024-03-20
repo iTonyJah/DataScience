@@ -1,5 +1,5 @@
 Перейдите по ссылкам, чтобы найти код к урокам модуля:
-- [Практический кейс: проанализируйте временной ряд в библиотеке ETNA](https://github.com/Eduson-DataScience/DataScience/blob/main/Random%20Forest/Decision%20tree.%20Practice.ipynb)
+- [Практический кейс: проанализируйте временной ряд в библиотеке ETNA](https://github.com/Eduson-DataScience/DataScience/blob/main/TimeSeries/103-EDA_ETNA.ipynb)
 - [Практический кейс: спрогнозируйте количество заказов такси](https://github.com/Eduson-DataScience/DataScience/blob/main/Random%20Forest/Decision%20tree.%20Practice.ipynb)
 
 
