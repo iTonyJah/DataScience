@@ -10,6 +10,7 @@
 - [Классификация. Деревья решений](https://github.com/Eduson-DataScience/DataScience/tree/main/Decision%20tree)
 - [Классификация. Случайный лес](https://github.com/Eduson-DataScience/DataScience/tree/main/Random%20Forest)
 - [Прогнозирование. Временные ряды](https://github.com/Eduson-DataScience/DataScience/tree/main/TimeSeries)
+- [Feature Engineering](https://github.com/Eduson-DataScience/DataScience/tree/main/Feature%20Engineering)
 
 
 Как скопировать учебные материалы:
