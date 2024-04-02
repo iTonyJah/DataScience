@@ -1,6 +1,6 @@
 Перейдите по ссылкам, чтобы найти код к урокам модуля:
-- [Практический кейс: первый кейс по Feature Engineering](https://github.com/Eduson-DataScience/DataScience/blob/main/TimeSeries/103-EDA_ETNA.ipynb)
-- [Практический кейс: предскажите стоимость недвижимости в штате Калифорния](https://github.com/Eduson-DataScience/DataScience/blob/main/TimeSeries/ETA_taxi_Test_task.ipynb)
+- [Практический кейс: первый кейс по Feature Engineering](https://github.com/Eduson-DataScience/DataScience/blob/main/Feature%20Engineering/feature_eng_1.ipynb)
+- [Практический кейс: предскажите стоимость недвижимости в штате Калифорния](https://github.com/Eduson-DataScience/DataScience/blob/main/Feature%20Engineering/feature_eng_2.ipynb)
 
 
 Как скопировать учебные материалы:
