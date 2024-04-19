@@ -11,7 +11,7 @@
 - [Классификация. Случайный лес](https://github.com/Eduson-DataScience/DataScience/tree/main/Random%20Forest)
 - [Прогнозирование. Временные ряды](https://github.com/Eduson-DataScience/DataScience/tree/main/TimeSeries)
 - [Feature Engineering](https://github.com/Eduson-DataScience/DataScience/tree/main/Feature%20Engineering)
-- [Кластеризация](https://github.com/Eduson-DataScience/DataScience/tree/main/Feature%20Engineering](https://github.com/Eduson-DataScience/DataScience/tree/main/%D0%A1lustering)
+- [Кластеризация](https://github.com/Eduson-DataScience/DataScience/tree/main/%D0%A1lustering)
 
 
 
