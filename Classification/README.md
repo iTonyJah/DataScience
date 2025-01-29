@@ -6,7 +6,7 @@
 - [Практический кейс: классифицируйте вина на основе их состава. Код из урока.](https://github.com/Eduson-DataScience/DataScience/blob/main/Classification/classification_practice.ipynb)
 -  [Домашнее задание: примените байесовский классификатор в задаче банковского скоринга. Код из урока.](https://github.com/Eduson-DataScience/DataScience/blob/main/Classification/classification_hometask.ipynb)
 -  [Практический кейс: сделайте классификацию методом опорных векторов и логистической регрессией. Код из урока.](https://github.com/Eduson-DataScience/DataScience/blob/main/Classification/svm_logreg_example.ipynb)
--  [Домашнее задание: классифицируйте опухоли молочной железы. Код из урока.](Classification/Homework_Classify_breast_tumors.ipynb)
+-  [Домашнее задание: классифицируйте опухоли молочной железы. Код из урока.](https://github.com/Eduson-DataScience/DataScience/blob/main/Classification/Homework_Classify_breast_tumors.ipynb)
 
 Как скопировать учебные материалы:
 1. Нажмите на кноку <code>Code</code>. Она находится в правом верхнем углу.
