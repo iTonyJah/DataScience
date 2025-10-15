@@ -1,3 +1,6 @@
 [submodule "Coursera_ML"]
 	path = Coursera_ML
 	url = https://github.com/iTonyJah/Coursera_ML.git
+[submodule "LinAlg4DataScience"]
+	path = LinAlg4DataScience
+	url = https://github.com/iTonyJah/LinAlg4DataScience.git
