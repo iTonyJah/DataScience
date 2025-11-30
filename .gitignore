@@ -115,3 +115,5 @@ fabric.properties
 
 # Excel temp files
 ~$*.xlsx
+
+catboost_info/
