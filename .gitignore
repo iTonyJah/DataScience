@@ -112,6 +112,7 @@ fabric.properties
 
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
+*.ipynb.layout
 
 # Excel temp files
 ~$*.xlsx
