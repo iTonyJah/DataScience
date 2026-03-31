@@ -1,0 +1,64 @@
+1. history >
+...
+  390  sudo mkdir /dir-371752
+  391  sudo groupadd --gid 4444 curators
+  392  sudo groupadd project_team
+  393  sudo useradd --uid 5501 --groups project_team user1
+  394  sudo useradd --uid 5502 --groups project_team user2
+  395  sudo useradd --uid 5503 --groups project_team user3
+  396  sudo useradd --uid 4441 --gid curators curator1
+  397  sudo useradd --uid 4442 --gid curators curator2
+  400  sudo chown :project_team /dir-371752
+  401  sudo chmod 2770 /dir-371752
+  402  sudo setfacl --modify g:curators:rx /dir-371752
+  403  sudo setfacl --default --modify g:curators:rx /dir-371752
+  404  sudo setfacl --default --modify g:project_team:rwx /dir-371752
+  405  sudo setfacl --default --modify other::--- /dir-371752
+  418  sudo setfacl --modify g:project_team:rwx /dir-371752
+
+2. /etc/passwd >
+...
+user1:x:5501:5501::/home/user1:/bin/bash
+user2:x:5502:5502::/home/user2:/bin/bash
+user3:x:5503:5503::/home/user3:/bin/bash
+curator1:x:4441:4444::/home/curator1:/bin/bash
+curator2:x:4442:4444::/home/curator2:/bin/bash
+
+3. /etc/groups >
+...
+curators:x:4444:
+project_team:x:4445:user1,user2,user3
+user1:x:5501:
+user2:x:5502:
+user3:x:5503:
+
+4. test >
+
+itj@fedora:~$ sudo --user=user1 touch /dir-371752/file_from_user1.txt
+
+itj@fedora:~$ sudo --user=user2 bash -c "echo 'Edit by user2' >> /dir-371752/file_from_user1.txt"
+itj@fedora:~$ sudo --user=user3 bash -c "echo 'Edit by user3' >> /dir-371752/file_from_user1.txt"
+
+itj@fedora:~$ sudo -u user3 touch /dir-371752/file_from_user3.txt
+
+itj@fedora:~$ sudo -u curator1 cat /dir-371752/file_from_user1.txt
+Edit by user2
+Edit by user3
+
+itj@fedora:~$ sudo -u curator1 rm /dir-371752/file_from_user3.txt
+rm: удалить защищённый от записи пустой обычный файл '/dir-371752/file_from_user3.txt'? y
+rm: невозможно удалить '/dir-371752/file_from_user3.txt': Отказано в доступе
+
+itj@fedora:~$ sudo -u curator2 touch /dir-371752/curator_file.txt
+touch: невозможно выполнить touch для '/dir-371752/curator_file.txt': Отказано в доступе
+
+itj@fedora:~$ ls /dir-371752
+ls: невозможно открыть каталог '/dir-371752': Отказано в доступе
+
+itj@fedora:~$ sudo ls -la /dir-371752
+итого 32
+drwxrws---+  3 root  project_team 4096 апр  1 00:52 .
+dr-xr-xr-x. 21 root  root         4096 мар 31 22:50 ..
+-rw-rw----+  1 user1 project_team   28 апр  1 00:51 file_from_user1.txt
+-rw-rw----+  1 user3 project_team    0 апр  1 00:52 file_from_user3.txt
+drwxrws---+  2 user1 project_team 4096 апр  1 00:44 folder_user1
