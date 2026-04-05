@@ -132,3 +132,6 @@ temp_downloaded_file.*
 /__pycache__
 /__pycache__/
 __pycache__
+
+# kaggle login
+kaggle.json
