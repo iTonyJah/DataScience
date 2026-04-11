@@ -24,10 +24,8 @@ test*.txt
 # Built Visual Studio Code Extensions
 *.vsix
 
-
 # LibreOffice locks
 .~lock.*#
-
 
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
@@ -109,7 +107,6 @@ fabric.properties
 
 # gitignore template for Jupyter Notebooks
 # website: http://jupyter.org/
-
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 *.ipynb.layout
@@ -119,15 +116,6 @@ fabric.properties
 
 catboost_info/
 
-drive.google.com/
-
-# any data file I need on hard drive but not in repo
-dst-3.0_16_1_hh_database.csv 
-
-# any data files downloaded from google drive 
-gdown_temp/
-temp_downloaded_file.*
-
 # compiled Python bytecode files
 /__pycache__
 /__pycache__/
@@ -135,3 +123,12 @@ __pycache__
 
 # kaggle login
 kaggle.json
+
+# any data files downloaded from google drive 
+gdown_temp/
+temp_downloaded_file.*
+drive.google.com/
+
+# any data file I need on hard drive but not in repo
+dst-3.0_16_1_hh_database.csv
+classification-of-oil-and-gas/
