@@ -1,0 +1,14 @@
+name: edu
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - jupyterlab
+  - notebook  # отдельный паект для ноутбука
+  - nb_conda_kernels # <--- Для автоматического обнаружения ядер
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - ipykernel

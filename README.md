@@ -1,4 +1,26 @@
-# Это репозиторий с учебными скриптами для курса DataScience
+# ML Masters Course: Environment Setup 🎓
+
+Репозиторий для учебных материалов магистратуры. Окружение синхронизируется через файл конфигурации для обеспечения идентичности вычислений на Windows (с OneDrive), Ubuntu и Fedora.
+
+## 🛠 Установка и обновление окружения
+
+Для развертывания или синхронизации библиотек используйте **Miniforge / Mamba** (основной канал: `conda-forge`).
+
+### 1. Создание / Обновление из файла
+Запустите в терминале (PowerShell или Bash) из корня проекта:
+
+```powershell
+# Обновляет текущее окружение 'edu' или создает его, если оно отсутствует
+conda env update --name edu --file environment.yml --prune
+
+
+
+
+
+
+
+
+# Это был репозиторий с учебными скриптами для курса DataScience
 
 Перейдите по ссылкам, чтобы найти код к урокам модуля:
 - [Введение в ML](https://github.com/Eduson-DataScience/DataScience/tree/main/ML_Introduction)
@@ -12,8 +34,6 @@
 - [Прогнозирование. Временные ряды](https://github.com/Eduson-DataScience/DataScience/tree/main/TimeSeries)
 - [Feature Engineering](https://github.com/Eduson-DataScience/DataScience/tree/main/Feature%20Engineering)
 - [Кластеризация](https://github.com/Eduson-DataScience/DataScience/tree/main/%D0%A1lustering)
-
-
 
 Как скопировать учебные материалы:
 1. Нажмите на кноку <code>Code</code>. Она находится в правом верхнем углу.
