@@ -12,7 +12,7 @@
 ```powershell
 # Обновляет текущее окружение 'edu' или создает его, если оно отсутствует
 conda env update --name edu --file environment.yml --prune
-
+```
 
 
 
