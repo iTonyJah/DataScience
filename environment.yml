@@ -1,14 +1,34 @@
 name: edu
 channels:
   - conda-forge
+  - pytorch
+  - defaults
 dependencies:
   - python=3.12
-  - jupyterlab
-  - notebook  # отдельный паект для ноутбука
-  - nb_conda_kernels # <--- Для автоматического обнаружения ядер
-  - pandas
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly
   - numpy
-  - scikit-learn
+  - pandas
   - matplotlib
   - seaborn
-  - ipykernel
+  - scikit-learn
+  - catboost
+  - statsmodels
+  - beautifulsoup4
+  - jupyterlab
+  - ipywidgets
+  - tqdm
+  - plotly
+  - openpyxl
+  - xlsxwriter
+  - kaggle
+  - pip
+  - pip:
+      - lightning-utilities
+      - pytorch-ignite
+      - scipy
+      - torchmetrics
+      - torchsummary
+      - opendatasets
