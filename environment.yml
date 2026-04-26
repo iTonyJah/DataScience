@@ -1,14 +1,9 @@
 name: edu
 channels:
   - conda-forge
-  - pytorch
   - defaults
 dependencies:
   - python=3.12
-  - pytorch
-  - torchvision
-  - torchaudio
-  - cpuonly
   - numpy
   - pandas
   - matplotlib
@@ -18,6 +13,7 @@ dependencies:
   - statsmodels
   - beautifulsoup4
   - jupyterlab
+  - notebook
   - ipywidgets
   - tqdm
   - plotly
@@ -26,9 +22,5 @@ dependencies:
   - kaggle
   - pip
   - pip:
-      - lightning-utilities
-      - pytorch-ignite
       - scipy
-      - torchmetrics
-      - torchsummary
       - opendatasets
