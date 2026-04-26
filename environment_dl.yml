@@ -1,0 +1,25 @@
+name: dl
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly  # Удали эту строку, если планируешь использовать GPU (NVIDIA)
+  - numpy
+  - pandas
+  - matplotlib
+  - tqdm
+  - jupyterlab
+  - notebook
+  - ipywidgets
+  - pip
+  - pip:
+      - lightning
+      - lightning-utilities
+      - pytorch-ignite
+      - torchmetrics
+      - torchsummary
