@@ -15,6 +15,8 @@ conda env update --name edu --file environment.yml --prune
 ```
 Добавленные библиотеки добавляем в сам файл ```environment.yml``` в любом текстовом редакторе.
 
+Вынес Deep Learning в отдельный файл, update должен сам удалить лишние зависимости из основного файла.
+
 
 
 
