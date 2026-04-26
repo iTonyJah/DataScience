@@ -21,6 +21,7 @@ dependencies:
   - xlsxwriter
   - kaggle
   - pip
+  - missingno
   - pip:
       - scipy
       - opendatasets
