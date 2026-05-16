@@ -136,3 +136,5 @@ data/
 games-rating/
 clustering-physical-activity-data/
 electricity-consumption/
+data/MNIST/
+Lenna_(test_image).png.*
