@@ -140,4 +140,4 @@ data/MNIST/
 Lenna_(test_image).png.*
 input/flower-dataset-102/
 working/flower/
-best_model.keras
+*.keras
