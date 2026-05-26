@@ -124,6 +124,9 @@ __pycache__
 # kaggle login
 kaggle.json
 
+# PyTorch model weights
+*.pth
+
 # any data files downloaded from google drive 
 gdown_temp/
 temp_downloaded_file.*
