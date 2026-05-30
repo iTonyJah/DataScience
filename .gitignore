@@ -115,6 +115,7 @@ fabric.properties
 ~$*.xlsx
 
 catboost_info/
+.quarto/
 
 # compiled Python bytecode files
 /__pycache__
