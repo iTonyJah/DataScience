@@ -135,6 +135,7 @@ drive.google.com/
 
 # any data file I need on hard drive but not in repo
 dst-3.0_16_1_hh_database.csv
+submission.csv
 classification-of-oil-and-gas/
 data/
 games-rating/
