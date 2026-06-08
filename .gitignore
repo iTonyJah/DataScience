@@ -147,3 +147,4 @@ Lenna_(test_image).png.*
 **/working/flower/**
 *.keras
 subbmission*.csv
+models/*.joblib
